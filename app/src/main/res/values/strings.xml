@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TextView</string>
+    <string name="java">我爱java</string>
+    <string name="java2">我爱java我爱java我爱java我爱java我爱java我爱java</string>
+    <string name="tel">邮件是：18845788065@163.com，电话是：17745192683</string>
+    <string name="word">测试文字</string>
+    <string name="hello">qwertyui</string>
+    <string name="txt">带边框文本</string>
+    <string name="select">可勾选文本</string>
+    <string name="jb">元边框，渐变蓝背景</string>
+
+</resources>

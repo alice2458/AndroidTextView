@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/java"
+        android:textSize="10pt"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableEnd="@drawable/flb"
+        android:text="@string/java"
+        android:textSize="10pt"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="middle"
+        android:singleLine="true"
+        android:text="@string/java2"
+        android:textAllCaps="true"
+        android:textSize="10pt"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoLink="email|phone"
+        android:singleLine="true"
+        android:text="@string/tel"
+        android:textSize="10pt" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:shadowColor="#00f"
+        android:shadowDx="10.0"
+        android:shadowDy="8.0"
+        android:shadowRadius="3.0"
+        android:text="@string/word"
+        android:textColor="#f00"
+        android:textSize="10pt"/>
+
+    <TextView
+        android:id="@+id/pwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:text="@string/hello"
+        android:textSize="10pt"
+        tools:ignore="TextViewEdits"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_order"
+        android:text="@string/txt"
+        android:textSize="10pt"/>
+
+    <CheckedTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checkMark="@drawable/flb"
+        android:text="@string/select"
+        android:textSize="10pt"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_order2"
+        android:text="@string/jb"
+        android:textSize="12pt"/>
+
+</LinearLayout>
